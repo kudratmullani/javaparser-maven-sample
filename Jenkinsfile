@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning repository from github.."
-                git branch: "main", url: "https://github.com/kudratmullani/javaparser-maven-sample.git"
+                git branch: "master", url: "https://github.com/kudratmullani/javaparser-maven-sample.git"
             }
         }
 
